@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a quote editor project built following the [Hotrails Turbo Rails tutorial](https://www.hotrails.dev/turbo-rails)
 
 Things you may want to cover:
 
