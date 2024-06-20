@@ -1,0 +1,19 @@
+en:
+  simple_form:
+    placeholders:
+      quote:
+        name: Name of your quote
+    labels:
+      quote:
+        name: Name
+      line_item_date: 
+        date: Date
+
+  helpers:
+    submit:
+      quote:
+        create: Create Quote
+        update: Update Quote
+      line_item_date:
+        create: Create Date
+        update: Update Date
