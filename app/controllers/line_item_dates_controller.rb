@@ -37,7 +37,12 @@ class LineItemDatesController < ApplicationController
 
   def update
     if @line_item_date.update(line_item_date_params)
-      redirect_to quote_path(@quote), notice: "Date updated successfully."
+
+      respond_to do |format|
+        format.html { redirect_to quote_path(@quote), notice: "Data succesfully updated"}
+        format.turbo_stream { flash.now[:notice] = "Date successfully updated"}
+      end
+
     else
       render :edit, status: :unprocessable_entity
     end
