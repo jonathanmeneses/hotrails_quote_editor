@@ -78,13 +78,13 @@
         box-shadow: var(--shadow-small);
 
         .line-item__quantity,
-        .line-item_price {
+        .line-item__price {
             display: block;
         }
-    }
 
-    .line-item__description {
-        order: 2;
+        .line-item__description {
+            order: 2;
+        }
     }
 
     &--header {
